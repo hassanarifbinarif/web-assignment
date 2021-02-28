@@ -24,9 +24,6 @@
     min-height: 150px;
 }
 
-.header{
-    align-items: baseline;
-}
 .all{
     width: 80%;
     margin-top: 5%;
@@ -55,8 +52,6 @@
 progress {
     color: #0063a6;
     font-size: .6em;
-    line-height: 1.5em;
-    text-indent: .5em;
     width: 15em;
     height: 1.8em;
     border: 1px solid #0001e6;
