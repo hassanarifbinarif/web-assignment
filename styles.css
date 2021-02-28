@@ -1,23 +1,24 @@
 * {
     background-color: #00031C;
-    color: wheat;
-}
-
-ul {
-    padding-left: 15px;
+    color: #DAEDF2;
 }
 
 .personal{
     float: right;
-    margin-right: 30%;
+    margin-right: 35%;
 }
 
-.bodyy{
+.lowerbody{
     margin-top: 35px;
+}
+
+.heading{
+    color: #eece92;
 }
 
 .picture{
     margin-top: 2%;
+    margin-left: 3%;
     width: 150px;
 }
 
@@ -26,7 +27,25 @@ ul {
 }
 .all{
     width: 80%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding: 30;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: 5px;
+    padding: 0;
 }
