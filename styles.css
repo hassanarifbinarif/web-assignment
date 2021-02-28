@@ -41,13 +41,6 @@
     list-style-type:none;
     padding: 30;
 }
-.item {
-    display: flex;
-    flex-direction: column;
-    max-width: fit-content;
-    margin: 5px;
-    padding: 0;
-}
 
 progress {
     color: #0063a6;
@@ -58,8 +51,13 @@ progress {
     background: #fff;
 }
 
-progress::-webkit-progress-bar { background: #fff; }
-progress::-webkit-progress-value { background: #0063a6; }
+progress::-webkit-progress-bar {
+    background: #fff; 
+}
+
+progress::-webkit-progress-value { 
+    background: #0063a6; 
+}
 
 .list {
     margin: 1%;
