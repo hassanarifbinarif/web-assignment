@@ -20,6 +20,8 @@
     margin-top: 2%;
     margin-left: 3%;
     width: 150px;
+    min-width: 150px;
+    min-height: 150px;
 }
 
 .header{
@@ -48,4 +50,22 @@
     max-width: fit-content;
     margin: 5px;
     padding: 0;
+}
+
+progress {
+    color: #0063a6;
+    font-size: .6em;
+    line-height: 1.5em;
+    text-indent: .5em;
+    width: 15em;
+    height: 1.8em;
+    border: 1px solid #0001e6;
+    background: #fff;
+}
+
+progress::-webkit-progress-bar { background: #fff; }
+progress::-webkit-progress-value { background: #0063a6; }
+
+.list {
+    margin: 1%;
 }
